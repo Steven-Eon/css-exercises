@@ -1,0 +1,20 @@
+.oddElements {
+    background-color: rgba(255, 167, 167);
+    font-size: 20px;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+.Extra {
+    font-size: 24px;
+}
+
+#Second {
+    color: blue;
+    font-size: 36px;
+}
+
+#Forth {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
