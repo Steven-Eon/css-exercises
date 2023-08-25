@@ -25,11 +25,22 @@
   grid-template-columns: 1fr 1fr;
   background-color: #393f4d;
   grid-column: 1 / span 2;
+  align-content: center;
+  border: 2px red solid;
 }
 
 .menu ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.menu {
+  align-self: center;
+}
+
+.header .logo {
+    justify-self: start;
 }
 
 .nav ul {
